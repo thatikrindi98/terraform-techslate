@@ -20,7 +20,7 @@ variable "environment" {
 variable "index" {
   type        = number
   description = "A unique index to differentiate between multiple instances of the same application."
-  default     = 1
+  default     = 3
 }
 
 variable "account_replication_type" {
